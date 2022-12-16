@@ -1,0 +1,173 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #d9dcd6;
+  }
+  
+  header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #060e11;
+    color: #ffffff;
+    height: auto;
+  }
+  
+  h1 {
+    display: inline-block;
+    font-size: 48px;
+  }
+  
+  header h1 .seo {
+    color: #d9dcd6;
+  }
+  
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px;
+    margin: 0 auto;
+  }
+  
+  .nav_link {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+  }
+  
+  .nav_menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+  }
+  
+  .nav_menu_item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+  }
+  
+  .nav_menu_link {
+    padding: 8px 12px;
+    border-radius: 3px;
+  }
+  
+  .nav_menu_link:hover,
+  .nav_menu_link_active {
+    background-color: #034574;
+    transition: 0.5s;
+  }
+  
+  /* this container locates to the left the section titles and to the right the paragraphs in the middle of the division line*/
+  .container{
+    display: flex;
+  }
+  
+  /* section titles to the left*/
+  aside{
+    flex: 30%;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-items:  center;
+    align-content: center;
+    /*background-color: aquamarine;*/
+  
+  }
+  
+  .container .info{
+    flex: 70%; 
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /*background-color: burlywood;*/
+  }
+  
+  .v-line{
+    margin-top: 0px;
+    border-left: solid  #000;
+    height:20%;
+    left: 20%;
+    position:absolute;
+    padding: 20px;
+  }
+  
+  .work{
+    display: flex;
+    justify-content: center;
+  }
+  
+  /*adjust font size*/
+  .slide_picture img{
+    width: 500px;
+    height: 200px;
+    padding: 10px; /*separates the images*/
+    
+  }
+  
+  .slide_picture {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .slide_picture_main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .slide_picture_main img{
+    width: 1000px;
+    height: 400px;
+    padding: 10px;
+  }
+  
+  /*text inside pictures*/
+  .slide_picture_main a {
+    font-size: 3rem;
+    color: #ffffff;
+    position: absolute;
+    justify-content: left;
+    text-decoration: none;
+  }
+  
+  .slide_picture_main h3{
+    font-size: 3rem;
+    color: #ffffff;
+    position:relativ;
+  }
+    
+  
+  .footer_contactme  {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .footer_contactme a{
+    font-size: x-large;
+    text-decoration: none underline;
+    color: #000;
+    font-style: italic;
+    
+  }
+
+  .info_main img{
+    width: 20%;
+    height: 20%;
+  
+  }
